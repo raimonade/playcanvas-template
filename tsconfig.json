@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "esnext",
+        "module": "es2015",
+        "allowJs": false,
+        "strict": false,
+        "noImplicitAny": false,
+        "baseUrl": "./",
+        "lib": ["dom", "esnext"]
+    },
+    "exclude": ["node_modules", "**/*.spec.ts"],
+}

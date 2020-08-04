@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "pcwatch --force & gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "playcanvas": "^1.32.4",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

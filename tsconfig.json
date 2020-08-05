@@ -5,9 +5,10 @@
         "module": "es2015",
         "allowJs": false,
         "strict": false,
+        "moduleResolution": "node",
         "noImplicitAny": false,
         "baseUrl": "./",
         "lib": ["dom", "esnext"]
     },
-    "exclude": ["node_modules", "**/*.spec.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts", "app/lib"],
 }

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "pcwatch --force & gulp watch"
+    "pull": "pcsync pullAll",
+    "push": "pcsync pushAll",
+    "watch": "pcwatch & gulp watch"
   },
   "author": "",
   "license": "ISC",

@@ -6,13 +6,15 @@
   "scripts": {
     "pull": "pcsync pullAll",
     "push": "pcsync pushAll",
-    "watch": "pcwatch & gulp watch"
+    "clean": "rimraf dist/Scripts/**",
+    "watch": "pcwatch --force & gulp watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gulp-typescript": "^6.0.0-alpha.1",
     "playcanvas": "^1.32.4",
+    "playcanvas-vector-math": "^1.0.3",
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7"
   },

@@ -1,0 +1,11 @@
+import 'playcanvas';
+
+class Movement extends pc.ScriptType {
+
+public initialize(){}
+public update(dt:number){}
+};
+
+pc.registerScript(Movement, 'Movement');
+
+Movement.attributes.add('speed', { type: 'number', default: 0.09 })

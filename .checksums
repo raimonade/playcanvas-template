@@ -1,0 +1,16 @@
+{
+    "app\\Scripts\\CameraMovement.js": "dbfd03872fd16ba993dcd32228fa838c74535df1",
+    "app\\Scripts\\PlayerMovement.js": "e101290b6906fb1318821c1377635f815f672215",
+    "app\\Scripts\\OrbitCamera.js": "5af5bfe8f28ba0fdc3fc0b18123b0389b8f163e3",
+    "app\\Scripts\\PlayerMovement copy.js": "a073a1b0c511834a37a3471faa7463416ab7371c",
+    "app\\Scripts\\MouseInput.js": "5707f075d5168659ec98c02d89c23ba9ffcc7a51",
+    "app\\Scripts\\TouchInput.js": "fcae4b47e86181c4ac459fb0ee6bbf25658be538",
+    "app\\Scripts\\PlayerController.js": "bc158090aabfa556d4d3e93e6207b5c447c6c9c6",
+    "app\\Scripts\\PlayerController copy.js": "1b94be6264f9587b78fcbe69fd6922cb1a81e5d3",
+    "app\\Scripts\\GameController.js": "24917c4a9264cb262b18b6bf01ae06a94468a6f6",
+    "app\\Scripts\\WallTriggers.js": "c9679278ef662e10e931cd0788be26d74382ac14",
+    "app\\GameController.js": "a667727b932ac1ef7190648fb9db810be0d69add",
+    "app\\Scripts\\BallController.js": "ee072b4af0438dd8249cfa8c67bfcd0565972770",
+    "app\\Scripts\\ScoreGoal.js": "c421ed865bf59153b53451871e9f527022856314",
+    "app\\Scripts\\AiPlayerController.js": "a0e867d28c8d1953348a41d620b29a7b13dad180"
+}

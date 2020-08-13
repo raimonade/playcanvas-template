@@ -10,7 +10,7 @@
         "baseUrl": "./",
         "experimentalDecorators": true, 
         "emitDecoratorMetadata": true,
-        "lib": ["dom", "esnext"]
+        "lib": ["dom", "esnext"],
     },
     "exclude": ["node_modules", "**/*.spec.ts", "app/lib"],
 }

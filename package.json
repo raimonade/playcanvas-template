@@ -7,11 +7,14 @@
     "pull": "pcsync pullAll",
     "push": "pcsync pushAll",
     "clean": "rimraf dist/Scripts/**",
-    "watch": "pcwatch --force & gulp watch"
+    "playcanvas-watch": "pcwatch --force",
+    "gulp-watch": "gulp watch",
+    "watch": "npm-run-all --parallel gulp-watch playcanvas-watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gulp-once": "^2.1.1",
     "gulp-typescript": "^6.0.0-alpha.1",
     "playcanvas": "^1.32.4",
     "playcanvas-vector-math": "^1.0.3",

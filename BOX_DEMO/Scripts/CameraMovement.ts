@@ -16,11 +16,8 @@ class CameraMovement extends pc.ScriptType {
         const targetY = this.eulers.x + 180;
         const targetX = this.eulers.y;
         const targetAng = new pc.Vec3(-targetX, targetY, 0);
-
         originEntity.setEulerAngles(targetAng);
-
         this.entity.setPosition(this.getWorldPoint());
-
         this.entity.lookAt(originEntity.getPosition());
     }
 
@@ -45,7 +42,6 @@ class CameraMovement extends pc.ScriptType {
         const hit: pc.RaycastResult = this.app.systems.rigidbody.raycastFirst(from, to);
 
         return hit ? hit.point : to;
-
     }
 
 };

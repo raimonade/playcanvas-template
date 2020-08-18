@@ -12,5 +12,6 @@
     "app\\GameController.js": "a667727b932ac1ef7190648fb9db810be0d69add",
     "app\\Scripts\\BallController.js": "ee072b4af0438dd8249cfa8c67bfcd0565972770",
     "app\\Scripts\\ScoreGoal.js": "c421ed865bf59153b53451871e9f527022856314",
-    "app\\Scripts\\AiPlayerController.js": "a0e867d28c8d1953348a41d620b29a7b13dad180"
+    "app\\Scripts\\AiPlayerController.js": "a0e867d28c8d1953348a41d620b29a7b13dad180",
+    "app\\Scripts\\SnapKit\\SnapKitIngegration.js": "8d11c1fbd780b04c5db79f413e9babf3ad5189e9"
 }
